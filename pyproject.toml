@@ -1,6 +1,6 @@
 [project]
 name = "telugu-stopwords"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python package for managing Telugu stop words."
 authors = [
     { name = "Pavan Yellathakota", email = "pavanyellathakota@gmail.com" },
