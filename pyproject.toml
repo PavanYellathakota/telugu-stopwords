@@ -1,7 +1,7 @@
 [project]
 name = "telugu-stopwords"
-version = "0.1.2"
-description = "A Python package for managing Telugu stop words."
+version = "0.1.3"
+description = "A comprehensive Telugu stop words library for NLP, ideal for hate speech detection and text preprocessing in Telugu."
 authors = [
     { name = "Pavan Yellathakota", email = "pavanyellathakota@gmail.com" },
     { name = "Prudhvi Yellathakota", email = "prudhviyellathakota@gmail.com" }
@@ -10,6 +10,15 @@ license = "MIT"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = []
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: Telugu"
+]
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
