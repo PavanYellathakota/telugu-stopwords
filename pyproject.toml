@@ -1,0 +1,32 @@
+[project]
+name = "telugu-stopwords"
+version = "0.1.0"
+description = "A comprehensive Telugu stopwords library for NLP tasks"
+readme = "README.md"
+authors = [
+    { name = "Pavan Yellathakota", email = "pavanyellathakota@gmail.com" },
+    { name = "Prudhvi Yellathakota", email = "prudhviyellathakota@gmail.com" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Text Processing :: Linguistic",
+]
+keywords = ["telugu", "stopwords", "nlp", "natural language processing"]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/PavanYellathakota/telugu-stopwords"
+Repository = "https://github.com/PavanYellathakota/telugu-stopwords"
+Issues = "https://github.com/PavanYellathakota/telugu-stopwords/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
